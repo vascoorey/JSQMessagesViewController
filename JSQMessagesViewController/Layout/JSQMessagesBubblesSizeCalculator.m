@@ -95,10 +95,10 @@
                               atIndexPath:(NSIndexPath *)indexPath
                                withLayout:(JSQMessagesCollectionViewFlowLayout *)layout
 {
-    NSValue *cachedSize = [self.cache objectForKey:@([messageData messageHash])];
-    if (cachedSize != nil) {
-        return [cachedSize CGSizeValue];
-    }
+//    NSValue *cachedSize = [self.cache objectForKey:@([messageData messageHash])];
+//    if (cachedSize != nil) {
+//        return [cachedSize CGSizeValue];
+//    }
 
     CGSize finalSize = CGSizeZero;
 
